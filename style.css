@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9fb;
+  font-family: "Nunito", sans-serif;
+}
+
+#title {
+  font-weight: 800;
+  margin-top: 3rem;
+}
+.heading {
+  text-align: center;
+
+  color: #05074c;
+}
+#wrapper {
+  display: flex;
+  background-color: white;
+  margin: 3rem 10rem;
+  border-radius: 10px;
+}
+
+/* Left Side--START */
+.left {
+  background-color: #3e2093;
+  padding: 3rem;
+  color: white;
+  border-radius: 10px;
+  margin: 1rem;
+  height: 30rem;
+  overflow: hidden;
+}
+.contact span {
+  color: #fa949d;
+}
+.flex-contact {
+  display: flex;
+}
+.flex-contact p {
+  margin-left: 1rem;
+}
+
+.social {
+  display: flex;
+  margin-top: 3rem;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.social a :hover {
+  transition: 0.3s ease;
+  text-decoration: none;
+  color: white;
+  background-color: #fa949d;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+.twitter-social {
+  margin: 0 2rem;
+}
+
+.circle {
+  position: relative;
+  bottom: 100px;
+  left: 350px;
+  height: 300px;
+  width: 300px;
+  background-color: #fa949d;
+  border-radius: 50%;
+}
+.circle-2 {
+  position: absolute;
+  z-index: 3;
+  bottom: 420px;
+  left: 550px;
+  height: 125px;
+  width: 125px;
+  background-color: #9275d7;
+  border-radius: 50%;
+  opacity: 80%;
+}
+/* Left Side--END */
+
+/* Right Side--START */
+.right {
+  width: 60%;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #e4e4eb;
+  outline: none;
+  background: transparent;
+}
+
+textarea {
+  resize: none;
+  border: none;
+
+  outline: none;
+}
+
+.phone-icon {
+  color: aqua;
+}
